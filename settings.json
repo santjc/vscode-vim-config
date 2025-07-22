@@ -51,6 +51,10 @@
     {
       "before": ["g", "h"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
+    },
+    {
+      "before": ["<leader>", "<space>"],
+      "commands": [":nohlsearch"]
     }
   ],
   "vim.visualModeKeyBindings": [
